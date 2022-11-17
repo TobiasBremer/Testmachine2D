@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestScript : MonoBehaviour
+namespace TeamSoloDev
 {
-    // Start is called before the first frame update
-    void Start()
+    public class TestScript : MonoBehaviour
     {
-        Debug.Log("Let's start coding!");
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
+            Debug.Log("Let's start coding!");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
+
